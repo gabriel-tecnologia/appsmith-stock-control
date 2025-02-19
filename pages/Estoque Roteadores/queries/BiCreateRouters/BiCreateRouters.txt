@@ -1,0 +1,5 @@
+{{
+routerMacAddressCsvPicker.files[0]?.data.map(mac => ({
+	macAddress: mac.macAddress.toUpperCase()
+}))
+}}

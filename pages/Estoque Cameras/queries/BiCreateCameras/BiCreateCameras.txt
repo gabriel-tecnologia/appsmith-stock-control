@@ -1,0 +1,6 @@
+{{
+routerMacAddressCsvPicker.files[0].data.map(obj => ({
+	macAddress: obj.macAddress.toUpperCase(),
+	tutkId: obj.tutkId.toUpperCase().slice(0,40),
+}))
+}}

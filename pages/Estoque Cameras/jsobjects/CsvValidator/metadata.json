@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "651d6a4f9fcaf8292494ab67_652e744f7e5e233cf8a14465",
+  "id": "Estoque Cameras_CsvValidator",
+  "unpublishedCollection": {
+    "name": "CsvValidator",
+    "pageId": "Estoque Cameras",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

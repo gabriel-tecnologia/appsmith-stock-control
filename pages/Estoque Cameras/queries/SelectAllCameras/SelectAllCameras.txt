@@ -1,0 +1,9 @@
+SELECT 
+	c.id AS cameraId,
+	c."createdAt" AS "Criado em",
+	c."updatedAt" AS "Atualizado em",
+	c."tutkId" ,
+	c."macAddress" AS "MAC Address",
+	c."surveillanceNodeId"
+FROM asgard.bifrost."Camera" c
+WHERE c."macAddress" LIKE '${(macAddressSearchInput.text.toUpperCase()).trim()}}%';

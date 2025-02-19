@@ -1,0 +1,5 @@
+{
+	"devices": {{
+	routerMacAddressCsvPicker.files[0].data
+}}
+}

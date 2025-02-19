@@ -1,0 +1,9 @@
+SELECT 
+	r.id AS routerId,
+	r."createdAt" AS "Criado em",
+	r."updatedAt" AS "Atualizado em",
+	r."socketXPConfigurationId" ,
+	r."macAddress" AS "MAC Address",
+	r."surveillanceNodeGroupId"
+FROM asgard.bifrost."Router" r
+WHERE r."macAddress" LIKE '%{{(macAddressSearchInput.text.toUpperCase()).trim()}}%';

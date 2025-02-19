@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "651d6a4f9fcaf8292494ab67_652c66707e5e233cf8a13fc8",
+  "id": "Estoque Roteadores_CsvValidator",
+  "unpublishedCollection": {
+    "name": "CsvValidator",
+    "pageId": "Estoque Roteadores",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

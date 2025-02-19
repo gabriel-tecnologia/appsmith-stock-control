@@ -1,0 +1,3 @@
+{
+	"macAddress":{{CreateRouterInput.text}}
+}

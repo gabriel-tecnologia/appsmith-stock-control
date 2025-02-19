@@ -1,0 +1,4 @@
+{
+	"macAddress":{{CreateCameraMACInput.text.trim().toUpperCase()}},
+	"tutkId": {{CreateCameraTUTKInput.text.trim().toUpperCase().slice(0,40)}}
+}
