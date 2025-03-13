@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT \n\tc.id AS cameraId,\n\tc.\"createdAt\" AS \"Criado em\",\n\tc.\"updatedAt\" AS \"Atualizado em\",\n\tc.\"tutkId\" ,\n\tc.\"macAddress\" AS \"MAC Address\",\n\tc.\"surveillanceNodeId\"\nFROM asgard.bifrost.\"Camera\" c\nWHERE c.\"macAddress\" LIKE '${(macAddressSearchInput.text.toUpperCase()).trim()}}%';\n",
+      "body": "SELECT \n\tc.id AS cameraId,\n\tc.\"createdAt\" AS \"Criado em\",\n\tc.\"updatedAt\" AS \"Atualizado em\",\n\tc.\"tutkId\" ,\n\tc.\"macAddress\" AS \"MAC Address\",\n\tc.\"surveillanceNodeId\",\n\tc.\"credential\"\nFROM asgard.bifrost.\"Camera\" c\nWHERE c.\"macAddress\" LIKE '%{{macAddressSearchInput.text}}'\n",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
@@ -22,7 +22,11 @@
       "name": "Asgard",
       "pluginId": "postgres-plugin"
     },
-    "dynamicBindingPathList": [],
+    "dynamicBindingPathList": [
+      {
+        "key": "body"
+      }
+    ],
     "executeOnLoad": true,
     "name": "SelectAllCameras",
     "pageId": "Estoque Cameras",

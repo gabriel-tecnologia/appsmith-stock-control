@@ -4,6 +4,7 @@ SELECT
 	c."updatedAt" AS "Atualizado em",
 	c."tutkId" ,
 	c."macAddress" AS "MAC Address",
-	c."surveillanceNodeId"
+	c."surveillanceNodeId",
+	c."credential"
 FROM asgard.bifrost."Camera" c
-WHERE c."macAddress" LIKE '${(macAddressSearchInput.text.toUpperCase()).trim()}}%';
+WHERE c."macAddress" LIKE '%{{macAddressSearchInput.text}}'
