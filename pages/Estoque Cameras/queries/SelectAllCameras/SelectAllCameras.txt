@@ -8,4 +8,4 @@ SELECT
 	c."credential"
 FROM asgard.bifrost."Camera" c
 WHERE c."macAddress" LIKE '%{{macAddressSearchInput.text}}'
-LIMIT 100
+LIMIT 1000

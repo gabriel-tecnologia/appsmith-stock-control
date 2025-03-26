@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT \n\tc.id AS cameraId,\n\tc.\"createdAt\" AS \"Criado em\",\n\tc.\"updatedAt\" AS \"Atualizado em\",\n\tc.\"tutkId\" ,\n\tc.\"macAddress\" AS \"MAC Address\",\n\tc.\"surveillanceNodeId\",\n\tc.\"credential\"\nFROM asgard.bifrost.\"Camera\" c\nWHERE c.\"macAddress\" LIKE '%{{macAddressSearchInput.text}}'\nLIMIT 100\n",
+      "body": "SELECT \n\tc.id AS cameraId,\n\tc.\"createdAt\" AS \"Criado em\",\n\tc.\"updatedAt\" AS \"Atualizado em\",\n\tc.\"tutkId\" ,\n\tc.\"macAddress\" AS \"MAC Address\",\n\tc.\"surveillanceNodeId\",\n\tc.\"credential\"\nFROM asgard.bifrost.\"Camera\" c\nWHERE c.\"macAddress\" LIKE '%{{macAddressSearchInput.text}}'\nLIMIT 1000\n",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
