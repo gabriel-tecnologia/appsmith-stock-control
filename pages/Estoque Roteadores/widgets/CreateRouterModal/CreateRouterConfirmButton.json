@@ -40,7 +40,7 @@
   "mobileLeftColumn": 47,
   "mobileRightColumn": 63,
   "mobileTopRow": 18,
-  "onClick": "{{BiCreateRouter.run().then(() => {\n  BBCreateRouter.run().catch(error => {\n    showAlert(`Falha ao criar o roteador no legado: ${error.message}`, 'error');\n  });\n  closeModal(CreateRouterModal.name);\n});}}",
+  "onClick": "{{BiCreateRouter.run().then(() => {\n  closeModal(CreateRouterModal.name);\n});}}",
   "parentId": "h0uiy80t1w",
   "placement": "CENTER",
   "recaptchaType": "V3",
