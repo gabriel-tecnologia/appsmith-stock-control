@@ -41,9 +41,9 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "name": "BiCreateCameras",
     "pageId": "Estoque Cameras",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

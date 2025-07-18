@@ -22,10 +22,10 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "fullyQualifiedName": "printTag.printTag",
     "name": "printTag",
     "pageId": "Estoque Roteadores",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

@@ -31,9 +31,9 @@
       "pluginId": "restapi-plugin"
     },
     "dynamicBindingPathList": [],
-    "executeOnLoad": false,
     "name": "BiHealthcheck",
     "pageId": "Estoque Cameras",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

@@ -23,9 +23,9 @@
       "pluginId": "mysql-plugin"
     },
     "dynamicBindingPathList": [],
-    "executeOnLoad": false,
     "name": "SelectAllDevices",
     "pageId": "Estoque Cameras",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

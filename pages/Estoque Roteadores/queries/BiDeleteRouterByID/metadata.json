@@ -44,9 +44,9 @@
         "key": "path"
       }
     ],
-    "executeOnLoad": false,
     "name": "BiDeleteRouterByID",
     "pageId": "Estoque Roteadores",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

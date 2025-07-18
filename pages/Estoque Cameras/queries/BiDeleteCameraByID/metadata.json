@@ -44,9 +44,9 @@
         "key": "path"
       }
     ],
-    "executeOnLoad": false,
     "name": "BiDeleteCameraByID",
     "pageId": "Estoque Cameras",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

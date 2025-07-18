@@ -41,9 +41,9 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "name": "BiCreateRouters",
     "pageId": "Estoque Roteadores",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

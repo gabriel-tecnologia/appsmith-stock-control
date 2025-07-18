@@ -23,9 +23,9 @@
       "pluginId": "postgres-plugin"
     },
     "dynamicBindingPathList": [],
-    "executeOnLoad": false,
     "name": "SelectAllAuthRoles",
     "pageId": "Estoque Roteadores",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }
